@@ -1,3 +1,4 @@
+```python
 class Config(configparser.SafeConfigParser):
     def __init__(self, path):
         configparser.SafeConfigParser.__init__(self, os.environ)
@@ -20,3 +21,4 @@ class Config(configparser.SafeConfigParser):
             return proxy_server
         except configparser.NoOptionError:
             return None
+```
