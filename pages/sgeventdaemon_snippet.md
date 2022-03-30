@@ -27,5 +27,4 @@ class Config(configparser.SafeConfigParser):
             return None
 ```
 
-
-https://github.com/FB-KH/html_embed_test/blob/main/_pages/sgeventdaemon_snippet.md
+<a href="https://github.com/FB-KH/html_embed_test/blob/main/_pages/sgeventdaemon_snippet.md">Click to edit:</a> 
