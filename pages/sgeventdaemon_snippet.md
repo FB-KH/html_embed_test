@@ -28,8 +28,4 @@ class Config(configparser.SafeConfigParser):
 ```
 
 
-{::comment}
 https://github.com/FB-KH/html_embed_test/blob/main/_pages/sgeventdaemon_snippet.md
-{:/comment}
-
-*[configparser]: Just testing to see this feature works

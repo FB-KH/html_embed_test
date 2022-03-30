@@ -23,3 +23,9 @@ Refer to the repo at https://github.com/FB-KH/html_embed_test
 
 <p>This is an example of inline HTML</p>
 The table of contents above is also an interesting example of importing external html files into a md file
+
+## Abbreviation example
+
+HTML should give meaning when hovered
+
+*[HTML]: Hyper Text Markup Language
