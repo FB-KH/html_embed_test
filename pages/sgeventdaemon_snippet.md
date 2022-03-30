@@ -1,5 +1,5 @@
 ---
-title: null
+layout: snippet
 ---
 
 ```python
