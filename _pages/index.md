@@ -1,6 +1,3 @@
-{% include navigation.html %}
-
-
 # Contents
 {:.no_toc}
 

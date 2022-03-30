@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "c:\\Users\\kkye.hall\\.vscode\\extensions\\virgilsisoe.nuke-tools-0.6.0\\include\\nuke_stubs"
+    ]
+}

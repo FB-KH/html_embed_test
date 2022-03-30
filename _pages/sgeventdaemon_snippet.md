@@ -1,3 +1,6 @@
+{::comment}
+this is a comment
+{:/comment}
 ```python
 class Config(configparser.SafeConfigParser):
     def __init__(self, path):
@@ -22,3 +25,5 @@ class Config(configparser.SafeConfigParser):
         except configparser.NoOptionError:
             return None
 ```
+
+*[configparser]: Just testing to see this feature works
