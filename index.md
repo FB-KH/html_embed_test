@@ -1,28 +1,10 @@
-# Contents header
+# Contents
+{:.no_toc}
 
 {% include toc.html %}
 
-```python
-class Config(configparser.SafeConfigParser):
-    def __init__(self, path):
-        configparser.SafeConfigParser.__init__(self, os.environ)
-        self.read(path)
+# Intro
 
-    def getShotgunURL(self):
-        return self.get("shotgun", "server")
+This is a proof of concept for setting up Github Pages to be used for provided code block / syntax highlighting to Google Sites through embedded html
 
-    def getEngineScriptName(self):
-        return self.get("shotgun", "name")
-
-    def getEngineScriptKey(self):
-        return self.get("shotgun", "key")
-
-    def getEngineProxyServer(self):
-        try:
-            proxy_server = self.get("shotgun", "proxy_server").strip()
-            if not proxy_server:
-                return None
-            return proxy_server
-        except configparser.NoOptionError:
-            return None
-```
+Refer to the repo at https://github.com/FB-KH/html_embed_test 
