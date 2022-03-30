@@ -1,3 +1,7 @@
+---
+title: null
+---
+
 ```python
 class Config(configparser.SafeConfigParser):
     def __init__(self, path):
